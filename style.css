@@ -1,0 +1,67 @@
+
+
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,116,1) 100%);
+    backdrop-filter: blur(50px);
+    font-family: "Arial", sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    
+  }
+  
+ .surname {
+    color: rgb(0, 18, 104);
+    font-size: 120px;
+    
+    
+ }
+
+ .cmngsn{
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+ }
+
+
+
+.rick {
+   display: none;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 9999;
+}
+
+.showRickBtn {
+   /* position: fixed; */
+   background: linear-gradient(90deg, #00aaff, #ff66cc);
+   border: none;
+   border-radius: 20px;
+   color: #fff;
+   padding: 10px 20px;
+   font-size: 16px;
+   text-align: center;
+   /* margin: 2cm; */
+}
+
+.showRickBtn:hover {
+   cursor: pointer;
+   opacity: 0.8;
+ }
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: black;
+   text-align: center;
+ }
