@@ -9,6 +9,7 @@ const player = new Vimeo.Player(iframe);
 //     rickShow.style.display = 'block';
 //     showRickBtn.remove();
 // });
+player.pause();
 
 const showingRick = () => {
     rickShow.style.display = 'block';
