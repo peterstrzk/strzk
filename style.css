@@ -66,6 +66,7 @@ html {
    margin-left: 10px;
    margin-right: 40px;
    /* Make these triangles higher */
+   position:relative; bottom:85px
    
 }
 
