@@ -79,4 +79,8 @@ footer {
    text-align: center;
  }
 
- 
+@media (max-width: 800px) {
+  .surname {
+    font-size: 60px;
+  }
+}
