@@ -64,7 +64,7 @@ html {
    border-right: 25px solid transparent;
    border-bottom: 43.5px solid red;
    margin-left: 10px;
-   margin-right: 40px;
+   margin-right: 30px;
    /* Make these triangles higher */
    position:relative; bottom:85px
    
@@ -79,8 +79,22 @@ footer {
    text-align: center;
  }
 
+/* responsive time! */
 @media (max-width: 800px) {
   .surname {
     font-size: 60px;
   }
 }
+
+@media (max-width: 800px) {
+   .triangle {
+      width: 0;
+      height: 0;
+      border-left: 12.5px solid transparent;
+      border-right: 12.5px solid transparent;
+      border-bottom: 21.75px solid red;
+      margin-left: 10px;
+      margin-right: 20px;
+      position:relative; bottom:45px;
+   }
+ }
