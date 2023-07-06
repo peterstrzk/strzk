@@ -84,17 +84,15 @@ footer {
   .surname {
     font-size: 60px;
   }
+  .triangle {
+   width: 0;
+   height: 0;
+   border-left: 12.5px solid transparent;
+   border-right: 12.5px solid transparent;
+   border-bottom: 21.75px solid red;
+   margin-left: 10px;
+   margin-right: 20px;
+   position:relative; bottom:45px;
+}
 }
 
-@media (max-width: 800px) {
-   .triangle {
-      width: 0;
-      height: 0;
-      border-left: 12.5px solid transparent;
-      border-right: 12.5px solid transparent;
-      border-bottom: 21.75px solid red;
-      margin-left: 10px;
-      margin-right: 20px;
-      position:relative; bottom:45px;
-   }
- }
